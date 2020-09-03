@@ -5,6 +5,10 @@ $(document).ready(
     $("#denaro").mouseenter(
       function(){
         $(".denaro-menu").show();
+        $(".investimenti-menu").hide();
+        $(".controllo-menu").hide();
+        $(".altro-menu").hide();
+        $(".abbonamenti-menu").hide();
       }
     );
 
@@ -19,6 +23,10 @@ $(document).ready(
     $("#investimenti").hover(
       function(){
         $(".investimenti-menu").show();
+        $(".denaro-menu").hide();
+        $(".controllo-menu").hide();
+        $(".altro-menu").hide();
+        $(".abbonamenti-menu").hide();
       }
     );
 
@@ -32,6 +40,10 @@ $(document).ready(
     $("#controllo").hover(
       function(){
         $(".controllo-menu").show();
+        $(".investimenti-menu").hide();
+        $(".denaro-menu").hide();
+        $(".altro-menu").hide();
+        $(".abbonamenti-menu").hide();
       }
     );
 
@@ -45,6 +57,10 @@ $(document).ready(
     $("#altro").hover(
       function(){
         $(".altro-menu").show();
+        $(".controllo-menu").hide();
+        $(".investimenti-menu").hide();
+        $(".denaro-menu").hide();
+        $(".abbonamenti-menu").hide();
       }
     );
 
@@ -58,6 +74,10 @@ $(document).ready(
     $("#abbonamenti").hover(
       function(){
         $(".abbonamenti-menu").show();
+        $(".altro-menu").hide();
+        $(".controllo-menu").hide();
+        $(".investimenti-menu").hide();
+        $(".denaro-menu").hide();
       }
     );
 
