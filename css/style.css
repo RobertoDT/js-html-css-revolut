@@ -43,35 +43,40 @@ body{
 }
 
 .denaro-menu{
-  background-color: red;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
   position: absolute;
   top: 55px;
   right: 530px;
   display: none;
 }
 .investimenti-menu{
-  background-color: green;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
   position:absolute;
   top: 55px;
   right: 350px;
   display: none;
 }
 .controllo-menu{
-  background-color: blue;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
   position: absolute;
   top: 55px;
   right: 310px;
   display: none;
 }
 .altro-menu{
-  background-color: yellow;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
   position: absolute;
   top: 55px;
   right: 130px;
   display: none;
 }
 .abbonamenti-menu{
-  background-color: pink;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
   position: absolute;
   top: 55px;
   right: 160px;
