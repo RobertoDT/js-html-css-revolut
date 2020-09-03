@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-left li,.list-right li{
+  list-style: none;
+  padding: 0 20px;
+}
+
+.list-left li a,.list-right li a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.list-left,.list-right{
+  display: flex;
+
+}
+
+.wrapper{
+  width: 1500px;
+  margin: 100px auto;
+  display: flex;
+  line-height: 50px;
+}
+
+.logo-revolut{
+  height: 40px;
+}
+
+.list-right{
+  padding-left: 200px;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.denaro-menu{
+  background-color: red;
+  position: absolute;
+  top: 55px;
+  right: 530px;
+  display: none;
+}
+.investimenti-menu{
+  background-color: green;
+  position:absolute;
+  top: 55px;
+  right: 350px;
+  display: none;
+}
+.controllo-menu{
+  background-color: blue;
+  position: absolute;
+  top: 55px;
+  right: 310px;
+  display: none;
+}
+.altro-menu{
+  background-color: yellow;
+  position: absolute;
+  top: 55px;
+  right: 130px;
+  display: none;
+}
+.abbonamenti-menu{
+  background-color: pink;
+  position: absolute;
+  top: 55px;
+  right: 160px;
+  display: none;
+}
+
+
+.download{
+  background-color: #3E4043;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
